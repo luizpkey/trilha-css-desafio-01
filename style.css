@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&family=Raleway&display=swap');
+
+
+* {
+   margin: 0;
+   padding: 0;
+   font-family: Raleway, Arial, Helvetica, sans-serif;
+}
+
+:root {
+   --color-text-dio: #33A8DB
+}
+
+body {
+   background-color: black;
+   color: white;
+}
+
+.banner {
+   width: 100vw;
+   height: 50vh;
+   border-bottom: 1px solid var(--color-text-dio);
+   background-image: url('./assets/images/banner.png');
+   background-repeat: no-repeat;
+   }
+
+.banner-content {
+   width: 100vw;
+   display: block;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+
+.banner-content h1 {
+   text-transform: uppercase;
+   color: var(--color-text-dio);
+}
+
+.banner-content p {
+   font-size: 15px;
+   font-weight: 300;
+   margin: 0 40% 0 40%;
+}
+
+.banner-content button {
+   background-color: transparent;
+   height: 40px;
+   width: 150px;
+   margin: 20px 0 30px 0;
+   border: 1px solid var(--color-text-dio);
+   color: var(--color-text-dio);
+   cursor: pointer;
+}
+
+.logo{}
+
+#course-content{
+   padding: 100px 0 0 0;
+   width: 100vw;
+   height: 50vh;
+   display: block;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+#course-content h2{
+   padding: 20px;
+   text-transform: uppercase;
+   color: var(--color-text-dio);
+   letter-spacing: 5px;
+}
+#course-content p{
+   margin: auto;
+   width: 39%;
+   padding: 10px;
+   font-size: 15px;
+   font-weight: 300;
+}
+#modules-list {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   }
+
+.module {
+   margin: 5px auto 20px auto;
+   width: 535px;
+   padding: 10px;
+   background-color: #ffffff40;
+   border: 1px solid var(--color-text-dio);
+   border-radius: 50px;
+}
+
+.module span {
+   color: var(--color-text-dio);
+}
+
+#transform-world {
+   width: 100vw;
+   background-color: transparent;
+   height: 50vh;
+   background-image: url('./assets/images/woman-code.png');
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center;
+   background-attachment: fixed;
+}
+
+#transform-world p{
+   width: 244px;
+   height: 141px;
+   top: 111px;
+   left: 198px;
+   text-shadow: var(--color-text-dio) 2px 0 10px;
+   font-weight: 900;
+   font-size: 40px;
+   line-height: 47px;
+   letter-spacing: 0em;
+   text-align: left;
+}
+
+#professional-challenges {
+   display: grid;
+   align-items: center;
+   justify-content: center;
+   text-align: center;   text-align: center;
+   width: 100vw;
+   height: 80vh;
+}
+#professional-challenges h2 {
+   text-transform: uppercase;
+   color:var(--color-text-dio);
+   width: 746px;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 37.57px;
+   letter-spacing: 5px;
+}
+
+#professional-challenges p {
+   margin: auto;
+   width: 792px;
+   height: 76px;
+   top: 2154px;
+   left: 324px;
+
+}
+footer {
+   border-top: 1px solid var(--color-text-dio);
+   height: 25vh;
+   display: block;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+
+.dio-logo {
+   margin-top: 60px;
+   width: 310px;
+   height: 44px;
+   top: 59px;
+   left: 565px;
+}
+footer a{
+   text-decoration: none;
+   color: var(--color-text-dio);
+}
